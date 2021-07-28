@@ -59,6 +59,59 @@
                                             <li><a href="about.html" style="font-size: 23px;">Sobre</a></li>
                                             <li><a href="services.html" style="font-size: 23px;">Serviços</a></li>
                                             <li><a href="contact.html" style="font-size: 23px;">Contatos</a></li>
+                                            <button type="button" class="btn" data-toggle="modal" data-target=".bd-example-modal-lg">Fale Conosco</button>
+                                            <!-- Modal -->
+                                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="modalFaleConoscoLabel">Preencha seus dados abaixo para falar conosco!</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                        <label for="inputName">Nome Completo</label>
+                                                        <input type="text" class="form-control" id="inputName" placeholder="Insira seu nome aqui">
+                                                        </div>
+                                                        <div class="form-group">
+                                                        <label for="inputEmail">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail1" placeholder="Insira seu endereço de Email">
+                                                        </div>
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-3">
+                                                                <label for="inputTelefone">Telefone</label>
+                                                                <input type="text" id="inputTelefone" class="form-control" placeholder="Insira seu telefone aqui">
+                                                            </div>
+                                                            <div class="form-group col-md-3">
+                                                                <label for="inputCep">CEP</label>
+                                                                <input type="text" name="cep" id="cep" class="form-control" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-row">
+                                                            <div class="form-group">
+                                                                <label for="perda">Você tem perda auditiva?</label>
+                                                                <div class="form-group col-md-6">
+                                                                    <select name="perda" class="form-control" required>
+                                                                        <option value=""></option>
+                                                                        <option value="Sim">Sim</option>
+                                                                        <option value="Não">Não</option>
+                                                                        <option value="Prefiro não dizer">Prefiro não dizer</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                                                    <button type="button" class="btn" >Enviar</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
                                         </ul>
                                     </nav>
                                 </div>
@@ -93,7 +146,6 @@
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInUp" data-delay=".3s">Envelheça com qualidade </h1>
                                     <p data-animation="fadeInUp" data-delay=".6s">É possivel envelhecer ouvindo <br> o mundo com qualidade</p>
-                                    <a href="services.html" class="btn" data-animation="fadeInLeft" data-delay=".3s">Fale Conosco</a>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +167,6 @@
                             <div class="hero__caption">
                                 <h1 data-animation="fadeInUp" data-delay=".3s">Envelheça com qualidade </h1>
                                 <p data-animation="fadeInUp" data-delay=".6s">É possivel envelhecer ouvindo <br> o mundo com qualidade</p>
-                                <a href="#" class="btn" data-animation="fadeInLeft" data-delay=".3s">Fale Conosco</a>
                             </div>
                         </div>
                     </div>
